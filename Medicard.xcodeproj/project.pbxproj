@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6808FBCD676103C28574B552 /* Pods_MedicardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D139512C7A6EB170B251461 /* Pods_MedicardUITests.framework */; };
+		6B007B831D98C320000AD589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B007B821D98C320000AD589 /* AppDelegate.swift */; };
+		6B007B851D98C320000AD589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B007B841D98C320000AD589 /* ViewController.swift */; };
+		6B007B881D98C320000AD589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B007B861D98C320000AD589 /* Main.storyboard */; };
+		6B007B8B1D98C320000AD589 /* Medicard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B007B891D98C320000AD589 /* Medicard.xcdatamodeld */; };
+		6B007B8D1D98C320000AD589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B007B8C1D98C320000AD589 /* Assets.xcassets */; };
+		6B007B901D98C320000AD589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B007B8E1D98C320000AD589 /* LaunchScreen.storyboard */; };
+		6B007B9B1D98C320000AD589 /* MedicardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B007B9A1D98C320000AD589 /* MedicardTests.swift */; };
+		6B007BA61D98C320000AD589 /* MedicardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B007BA51D98C320000AD589 /* MedicardUITests.swift */; };
+		6B007BB51D98C441000AD589 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B007BB41D98C441000AD589 /* logo.png */; };
+		6B007BB91D98D438000AD589 /* underline.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B007BB81D98D438000AD589 /* underline.png */; };
+		6B007BBC1D98DF69000AD589 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B007BBA1D98DF69000AD589 /* icon-76@2x.png */; };
+		6B007BBD1D98DF69000AD589 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B007BBB1D98DF69000AD589 /* icon-120.png */; };
+		6B02A65C1DAB788E00D93BA2 /* ic_print_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A6591DAB788E00D93BA2 /* ic_print_white.png */; };
+		6B02A65D1DAB788E00D93BA2 /* ic_print_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A65A1DAB788E00D93BA2 /* ic_print_white@3x.png */; };
+		6B02A65E1DAB788E00D93BA2 /* ic_print_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A65B1DAB788E00D93BA2 /* ic_print_white@2x.png */; };
+		6B02A6621DAB7B5000D93BA2 /* ic_mail_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A65F1DAB7B5000D93BA2 /* ic_mail_white.png */; };
+		6B02A6631DAB7B5000D93BA2 /* ic_mail_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A6601DAB7B5000D93BA2 /* ic_mail_white@3x.png */; };
+		6B02A6641DAB7B5000D93BA2 /* ic_mail_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A6611DAB7B5000D93BA2 /* ic_mail_white@2x.png */; };
+		6B02A6681DAB7B6700D93BA2 /* ic_person_add_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A6651DAB7B6700D93BA2 /* ic_person_add_white.png */; };
+		6B02A6691DAB7B6700D93BA2 /* ic_person_add_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A6661DAB7B6700D93BA2 /* ic_person_add_white@3x.png */; };
+		6B02A66A1DAB7B6700D93BA2 /* ic_person_add_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A6671DAB7B6700D93BA2 /* ic_person_add_white@2x.png */; };
+		6B02A66E1DAB7C7B00D93BA2 /* ic_view_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A66B1DAB7C7B00D93BA2 /* ic_view_white@3x.png */; };
+		6B02A66F1DAB7C7B00D93BA2 /* ic_view_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A66C1DAB7C7B00D93BA2 /* ic_view_white.png */; };
+		6B02A6701DAB7C7B00D93BA2 /* ic_view_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02A66D1DAB7C7B00D93BA2 /* ic_view_white@2x.png */; };
+		6B11E8A71DB6064D00FE5D30 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B11E8A61DB6064D00FE5D30 /* SWRevealViewController.m */; };
+		6B3EDA2C1DE71B4D0068BB6F /* bar_button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3EDA2B1DE71B4D0068BB6F /* bar_button_bg@2x.png */; };
+		6B3EE9191DC32D3C006FA6B7 /* ic_white_logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3EE9181DC32D3C006FA6B7 /* ic_white_logout.png */; };
+		6B3F38481DAF2FD100DFEF1B /* DependentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F38471DAF2FD100DFEF1B /* DependentsTableViewCell.swift */; };
+		6B3F384A1DAF44B200DFEF1B /* ic_edit_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F38491DAF44B200DFEF1B /* ic_edit_white.png */; };
+		6B3F384C1DAF4D4500DFEF1B /* ViewQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F384B1DAF4D4500DFEF1B /* ViewQRCodeViewController.swift */; };
+		6B3F384E1DAF550900DFEF1B /* MemInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F384D1DAF550900DFEF1B /* MemInformationTableViewCell.swift */; };
+		6B3F38501DAF56CB00DFEF1B /* AccountInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F384F1DAF56CB00DFEF1B /* AccountInformationTableViewCell.swift */; };
+		6B465B211DA62CD600DA4047 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B465B201DA62CD600DA4047 /* FormValidation.swift */; };
+		6B5125A01DD5C12800DD40DD /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B51259F1DD5C12800DD40DD /* ImageResizer.swift */; };
+		6B5BCF091D9B747800EA0DC8 /* ShowKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5BCF081D9B747800EA0DC8 /* ShowKeyboard.swift */; };
+		6B5BCF0E1D9BA20E00EA0DC8 /* MedicardAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5BCF0D1D9BA20E00EA0DC8 /* MedicardAccountsViewController.swift */; };
+		6B62CEB61E0A45640068E139 /* ic_logo_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B62CEB51E0A45640068E139 /* ic_logo_vertical.png */; };
+		6B7E04DB1DAC95A50082B064 /* ic_logout_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E04D81DAC95A50082B064 /* ic_logout_white.png */; };
+		6B7E04DC1DAC95A50082B064 /* ic_logout_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E04D91DAC95A50082B064 /* ic_logout_white@2x.png */; };
+		6B7E04DD1DAC95A50082B064 /* ic_logout_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B7E04DA1DAC95A50082B064 /* ic_logout_white@3x.png */; };
+		6B7E04DF1DACBE1A0082B064 /* TermAndConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E04DE1DACBE1A0082B064 /* TermAndConditionViewController.swift */; };
+		6B8542FC1DBF40FD0055E193 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8542FA1DBF40FD0055E193 /* MBProgressHUD.m */; };
+		6B89878F1DA6219E00D6A475 /* ShowSnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B89878E1DA6219E00D6A475 /* ShowSnackBar.swift */; };
+		6B975DCB1DAA8138006817AD /* img_profile_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B975DCA1DAA8138006817AD /* img_profile_sample.jpg */; };
+		6B975DCD1DAA846B006817AD /* MemberInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B975DCC1DAA846B006817AD /* MemberInfoViewController.swift */; };
+		6B975DCF1DAA88DE006817AD /* MemberInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B975DCE1DAA88DE006817AD /* MemberInfoTableViewCell.swift */; };
+		6BA28FFA1DACC2FB0070622C /* ic_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA28FF71DACC2FB0070622C /* ic_back_white@2x.png */; };
+		6BA28FFB1DACC2FB0070622C /* ic_back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA28FF81DACC2FB0070622C /* ic_back_white@3x.png */; };
+		6BA28FFC1DACC2FB0070622C /* ic_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA28FF91DACC2FB0070622C /* ic_back_white.png */; };
+		6BA28FFE1DACDE020070622C /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA28FFD1DACDE020070622C /* SideMenuViewController.swift */; };
+		6BA290001DACDEDE0070622C /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA28FFF1DACDEDE0070622C /* SideMenuTableViewCell.swift */; };
+		6BA290021DACDF950070622C /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA290011DACDF950070622C /* MyAccountViewController.swift */; };
+		6BA290051DACE3900070622C /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA290031DACE3900070622C /* reveal-icon.png */; };
+		6BA290061DACE3900070622C /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA290041DACE3900070622C /* reveal-icon@2x.png */; };
+		6BA290081DACF61A0070622C /* RequestLOAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA290071DACF61A0070622C /* RequestLOAViewController.swift */; };
+		6BA2900A1DACF6510070622C /* DentistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA290091DACF6510070622C /* DentistViewController.swift */; };
+		6BA39DEB1DD96E5D001515CF /* ic_no_internet.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA39DEA1DD96E5D001515CF /* ic_no_internet.png */; };
+		6BAE189D1DBDF312000DA649 /* PostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE189C1DBDF312000DA649 /* PostRouter.swift */; };
+		6BB08B981DE5730800825490 /* splashscreen_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BB08B971DE5730800825490 /* splashscreen_bg.jpg */; };
+		6BB08B9A1DE5739500825490 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08B991DE5739500825490 /* SplashScreenViewController.swift */; };
+		6BB08B9C1DE57AA200825490 /* ic_logo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB08B9B1DE57AA200825490 /* ic_logo_2.png */; };
+		6BB08B9E1DE584B700825490 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08B9D1DE584B700825490 /* ForgotPasswordViewController.swift */; };
+		6BBDC6AB1DE2E61000C08633 /* ic_person_add_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BBDC6A81DE2E61000C08633 /* ic_person_add_purple.png */; };
+		6BBDC6AC1DE2E61000C08633 /* ic_person_add_purple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BBDC6A91DE2E61000C08633 /* ic_person_add_purple@2x.png */; };
+		6BBDC6AD1DE2E61000C08633 /* ic_person_add_purple@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BBDC6AA1DE2E61000C08633 /* ic_person_add_purple@3x.png */; };
+		6BC4A9401DEAB03200245AA2 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC4A93F1DEAB03200245AA2 /* AlertMessages.swift */; };
+		6BC530C51DB71B3F0076A463 /* ic_mode_edit_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC530C21DB71B3F0076A463 /* ic_mode_edit_white.png */; };
+		6BC530C61DB71B3F0076A463 /* ic_mode_edit_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC530C31DB71B3F0076A463 /* ic_mode_edit_white@3x.png */; };
+		6BC530C71DB71B3F0076A463 /* ic_mode_edit_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC530C41DB71B3F0076A463 /* ic_mode_edit_white@2x.png */; };
+		6BC530CB1DB743A10076A463 /* photo_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BC530CA1DB743A10076A463 /* photo_placeholder.jpg */; };
+		6BD25C121D9BE97C0028A129 /* sample_qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD25C111D9BE97C0028A129 /* sample_qr.png */; };
+		6BD25C151D9BEB7B0028A129 /* MedicardAccountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD25C141D9BEB7B0028A129 /* MedicardAccountsTableViewCell.swift */; };
+		6BD25C191D9BEEC00028A129 /* ic_add_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD25C161D9BEEC00028A129 /* ic_add_white@3x.png */; };
+		6BD25C1A1D9BEEC00028A129 /* ic_add_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD25C171D9BEEC00028A129 /* ic_add_white.png */; };
+		6BD25C1B1D9BEEC00028A129 /* ic_add_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD25C181D9BEEC00028A129 /* ic_add_white@2x.png */; };
+		6BD2944B1DE5EC110056DC4E /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2944A1DE5EC110056DC4E /* ChangePassViewController.swift */; };
+		6BDCD0CE1DAC5AEF002D9AD4 /* GenerateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCD0CD1DAC5AEF002D9AD4 /* GenerateQRCode.swift */; };
+		6BEB2E831D9AAB4E0029D3F3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB2E821D9AAB4E0029D3F3 /* RegisterViewController.swift */; };
+		6BEB2E851D9ABBC00029D3F3 /* inner-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB2E841D9ABBC00029D3F3 /* inner-logo@2x.png */; };
+		6BEB2E891D9ABF4B0029D3F3 /* ic_close_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB2E861D9ABF4B0029D3F3 /* ic_close_white.png */; };
+		6BEB2E8A1D9ABF4B0029D3F3 /* ic_close_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB2E871D9ABF4B0029D3F3 /* ic_close_white@2x.png */; };
+		6BEB2E8B1D9ABF4B0029D3F3 /* ic_close_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB2E881D9ABF4B0029D3F3 /* ic_close_white@3x.png */; };
+		6BEB34931E24A42D00C8A68F /* PingUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB34921E24A42D00C8A68F /* PingUrl.swift */; };
+		6BF716F11DD1646D00E22758 /* ic_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF716F01DD1646D00E22758 /* ic_logo.png */; };
+		816992FA32DB29F8A1330EC0 /* Pods_MedicardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B932A7D2A107041896AD87 /* Pods_MedicardTests.framework */; };
+		9966B7955E70CC9334AD817A /* Pods_Medicard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD22A9B25279B8255C5D818 /* Pods_Medicard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B007B971D98C320000AD589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B007B771D98C320000AD589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B007B7E1D98C320000AD589;
+			remoteInfo = Medicard;
+		};
+		6B007BA21D98C320000AD589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B007B771D98C320000AD589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B007B7E1D98C320000AD589;
+			remoteInfo = Medicard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09EA69468C6DC33359AC27BD /* Pods-Medicard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medicard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Medicard/Pods-Medicard.debug.xcconfig"; sourceTree = "<group>"; };
+		38BE2610ED4A44CBF4498AE1 /* Pods-MedicardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicardTests/Pods-MedicardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD22A9B25279B8255C5D818 /* Pods_Medicard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medicard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D139512C7A6EB170B251461 /* Pods_MedicardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B932A7D2A107041896AD87 /* Pods_MedicardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B007B7F1D98C320000AD589 /* Medicard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medicard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B007B821D98C320000AD589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B007B841D98C320000AD589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B007B871D98C320000AD589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B007B8A1D98C320000AD589 /* Medicard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medicard.xcdatamodel; sourceTree = "<group>"; };
+		6B007B8C1D98C320000AD589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B007B8F1D98C320000AD589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B007B911D98C320000AD589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B007B961D98C320000AD589 /* MedicardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B007B9A1D98C320000AD589 /* MedicardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicardTests.swift; sourceTree = "<group>"; };
+		6B007B9C1D98C320000AD589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B007BA11D98C320000AD589 /* MedicardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B007BA51D98C320000AD589 /* MedicardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicardUITests.swift; sourceTree = "<group>"; };
+		6B007BA71D98C320000AD589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B007BB41D98C441000AD589 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		6B007BB81D98D438000AD589 /* underline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underline.png; sourceTree = "<group>"; };
+		6B007BBA1D98DF69000AD589 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		6B007BBB1D98DF69000AD589 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		6B02A6591DAB788E00D93BA2 /* ic_print_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_print_white.png; sourceTree = "<group>"; };
+		6B02A65A1DAB788E00D93BA2 /* ic_print_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_print_white@3x.png"; sourceTree = "<group>"; };
+		6B02A65B1DAB788E00D93BA2 /* ic_print_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_print_white@2x.png"; sourceTree = "<group>"; };
+		6B02A65F1DAB7B5000D93BA2 /* ic_mail_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mail_white.png; sourceTree = "<group>"; };
+		6B02A6601DAB7B5000D93BA2 /* ic_mail_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_mail_white@3x.png"; sourceTree = "<group>"; };
+		6B02A6611DAB7B5000D93BA2 /* ic_mail_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_mail_white@2x.png"; sourceTree = "<group>"; };
+		6B02A6651DAB7B6700D93BA2 /* ic_person_add_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_person_add_white.png; sourceTree = "<group>"; };
+		6B02A6661DAB7B6700D93BA2 /* ic_person_add_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_add_white@3x.png"; sourceTree = "<group>"; };
+		6B02A6671DAB7B6700D93BA2 /* ic_person_add_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_add_white@2x.png"; sourceTree = "<group>"; };
+		6B02A66B1DAB7C7B00D93BA2 /* ic_view_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_view_white@3x.png"; sourceTree = "<group>"; };
+		6B02A66C1DAB7C7B00D93BA2 /* ic_view_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_view_white.png; sourceTree = "<group>"; };
+		6B02A66D1DAB7C7B00D93BA2 /* ic_view_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_view_white@2x.png"; sourceTree = "<group>"; };
+		6B11E8A51DB6064D00FE5D30 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6B11E8A61DB6064D00FE5D30 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6B11E8A91DB60B5D00FE5D30 /* Medicard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Medicard-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B3EDA2B1DE71B4D0068BB6F /* bar_button_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar_button_bg@2x.png"; sourceTree = "<group>"; };
+		6B3EE9181DC32D3C006FA6B7 /* ic_white_logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_white_logout.png; sourceTree = "<group>"; };
+		6B3F38471DAF2FD100DFEF1B /* DependentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DependentsTableViewCell.swift; path = Model/DependentsTableViewCell.swift; sourceTree = "<group>"; };
+		6B3F38491DAF44B200DFEF1B /* ic_edit_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_edit_white.png; sourceTree = "<group>"; };
+		6B3F384B1DAF4D4500DFEF1B /* ViewQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewQRCodeViewController.swift; sourceTree = "<group>"; };
+		6B3F384D1DAF550900DFEF1B /* MemInformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemInformationTableViewCell.swift; sourceTree = "<group>"; };
+		6B3F384F1DAF56CB00DFEF1B /* AccountInformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInformationTableViewCell.swift; sourceTree = "<group>"; };
+		6B465B201DA62CD600DA4047 /* FormValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
+		6B51259F1DD5C12800DD40DD /* ImageResizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		6B5BCF081D9B747800EA0DC8 /* ShowKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowKeyboard.swift; sourceTree = "<group>"; };
+		6B5BCF0D1D9BA20E00EA0DC8 /* MedicardAccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicardAccountsViewController.swift; sourceTree = "<group>"; };
+		6B62CEB51E0A45640068E139 /* ic_logo_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logo_vertical.png; sourceTree = "<group>"; };
+		6B7E04D81DAC95A50082B064 /* ic_logout_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logout_white.png; sourceTree = "<group>"; };
+		6B7E04D91DAC95A50082B064 /* ic_logout_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_logout_white@2x.png"; sourceTree = "<group>"; };
+		6B7E04DA1DAC95A50082B064 /* ic_logout_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_logout_white@3x.png"; sourceTree = "<group>"; };
+		6B7E04DE1DACBE1A0082B064 /* TermAndConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermAndConditionViewController.swift; sourceTree = "<group>"; };
+		6B8542FA1DBF40FD0055E193 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6B8542FB1DBF40FD0055E193 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6B89878E1DA6219E00D6A475 /* ShowSnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSnackBar.swift; sourceTree = "<group>"; };
+		6B975DCA1DAA8138006817AD /* img_profile_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_profile_sample.jpg; sourceTree = "<group>"; };
+		6B975DCC1DAA846B006817AD /* MemberInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberInfoViewController.swift; sourceTree = "<group>"; };
+		6B975DCE1DAA88DE006817AD /* MemberInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberInfoTableViewCell.swift; sourceTree = "<group>"; };
+		6BA28FF71DACC2FB0070622C /* ic_back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back_white@2x.png"; sourceTree = "<group>"; };
+		6BA28FF81DACC2FB0070622C /* ic_back_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back_white@3x.png"; sourceTree = "<group>"; };
+		6BA28FF91DACC2FB0070622C /* ic_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back_white.png; sourceTree = "<group>"; };
+		6BA28FFD1DACDE020070622C /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		6BA28FFF1DACDEDE0070622C /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		6BA290011DACDF950070622C /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		6BA290031DACE3900070622C /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		6BA290041DACE3900070622C /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		6BA290071DACF61A0070622C /* RequestLOAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLOAViewController.swift; sourceTree = "<group>"; };
+		6BA290091DACF6510070622C /* DentistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DentistViewController.swift; sourceTree = "<group>"; };
+		6BA39DEA1DD96E5D001515CF /* ic_no_internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_no_internet.png; sourceTree = "<group>"; };
+		6BAE189C1DBDF312000DA649 /* PostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRouter.swift; sourceTree = "<group>"; };
+		6BB08B971DE5730800825490 /* splashscreen_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashscreen_bg.jpg; sourceTree = "<group>"; };
+		6BB08B991DE5739500825490 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		6BB08B9B1DE57AA200825490 /* ic_logo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logo_2.png; sourceTree = "<group>"; };
+		6BB08B9D1DE584B700825490 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		6BBDC6A81DE2E61000C08633 /* ic_person_add_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_person_add_purple.png; sourceTree = "<group>"; };
+		6BBDC6A91DE2E61000C08633 /* ic_person_add_purple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_add_purple@2x.png"; sourceTree = "<group>"; };
+		6BBDC6AA1DE2E61000C08633 /* ic_person_add_purple@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_add_purple@3x.png"; sourceTree = "<group>"; };
+		6BC4A93F1DEAB03200245AA2 /* AlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		6BC530C21DB71B3F0076A463 /* ic_mode_edit_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mode_edit_white.png; sourceTree = "<group>"; };
+		6BC530C31DB71B3F0076A463 /* ic_mode_edit_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_mode_edit_white@3x.png"; sourceTree = "<group>"; };
+		6BC530C41DB71B3F0076A463 /* ic_mode_edit_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_mode_edit_white@2x.png"; sourceTree = "<group>"; };
+		6BC530CA1DB743A10076A463 /* photo_placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_placeholder.jpg; sourceTree = "<group>"; };
+		6BD25C111D9BE97C0028A129 /* sample_qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_qr.png; sourceTree = "<group>"; };
+		6BD25C141D9BEB7B0028A129 /* MedicardAccountsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicardAccountsTableViewCell.swift; sourceTree = "<group>"; };
+		6BD25C161D9BEEC00028A129 /* ic_add_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_white@3x.png"; sourceTree = "<group>"; };
+		6BD25C171D9BEEC00028A129 /* ic_add_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add_white.png; sourceTree = "<group>"; };
+		6BD25C181D9BEEC00028A129 /* ic_add_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_white@2x.png"; sourceTree = "<group>"; };
+		6BD2944A1DE5EC110056DC4E /* ChangePassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
+		6BDCD0CD1DAC5AEF002D9AD4 /* GenerateQRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateQRCode.swift; sourceTree = "<group>"; };
+		6BEB2E821D9AAB4E0029D3F3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6BEB2E841D9ABBC00029D3F3 /* inner-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inner-logo@2x.png"; sourceTree = "<group>"; };
+		6BEB2E861D9ABF4B0029D3F3 /* ic_close_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_close_white.png; sourceTree = "<group>"; };
+		6BEB2E871D9ABF4B0029D3F3 /* ic_close_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_close_white@2x.png"; sourceTree = "<group>"; };
+		6BEB2E881D9ABF4B0029D3F3 /* ic_close_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_close_white@3x.png"; sourceTree = "<group>"; };
+		6BEB34921E24A42D00C8A68F /* PingUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingUrl.swift; sourceTree = "<group>"; };
+		6BF716F01DD1646D00E22758 /* ic_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logo.png; sourceTree = "<group>"; };
+		9868A31E6740CC0179906484 /* Pods-MedicardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicardTests/Pods-MedicardTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEE1179663F3160A08CCF155 /* Pods-MedicardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicardUITests/Pods-MedicardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4721E0446AB5D9E30195ED8 /* Pods-MedicardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicardUITests/Pods-MedicardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED81BC5CFF02735F799E6380 /* Pods-Medicard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medicard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medicard/Pods-Medicard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B007B7C1D98C320000AD589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9966B7955E70CC9334AD817A /* Pods_Medicard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B007B931D98C320000AD589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816992FA32DB29F8A1330EC0 /* Pods_MedicardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B007B9E1D98C320000AD589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6808FBCD676103C28574B552 /* Pods_MedicardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A03C338BB2EB1A920ABF69E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09EA69468C6DC33359AC27BD /* Pods-Medicard.debug.xcconfig */,
+				ED81BC5CFF02735F799E6380 /* Pods-Medicard.release.xcconfig */,
+				38BE2610ED4A44CBF4498AE1 /* Pods-MedicardTests.debug.xcconfig */,
+				9868A31E6740CC0179906484 /* Pods-MedicardTests.release.xcconfig */,
+				AEE1179663F3160A08CCF155 /* Pods-MedicardUITests.debug.xcconfig */,
+				B4721E0446AB5D9E30195ED8 /* Pods-MedicardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B007B761D98C320000AD589 = {
+			isa = PBXGroup;
+			children = (
+				6BAE189B1DBDF1C6000DA649 /* AlamofireConnection */,
+				6B007B811D98C320000AD589 /* Medicard */,
+				6B007B991D98C320000AD589 /* MedicardTests */,
+				6B007BA41D98C320000AD589 /* MedicardUITests */,
+				6B007B801D98C320000AD589 /* Products */,
+				1A03C338BB2EB1A920ABF69E /* Pods */,
+				BB55BE52530C6AB3ED092D6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B007B801D98C320000AD589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B007B7F1D98C320000AD589 /* Medicard.app */,
+				6B007B961D98C320000AD589 /* MedicardTests.xctest */,
+				6B007BA11D98C320000AD589 /* MedicardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B007B811D98C320000AD589 /* Medicard */ = {
+			isa = PBXGroup;
+			children = (
+				6B8542F91DBF40E30055E193 /* MBProgress */,
+				6B11E89F1DB605D700FE5D30 /* SWRevealSideMenu */,
+				6BD25C131D9BEB5D0028A129 /* Custom TableCells */,
+				6B5BCF0A1D9BA0CE00EA0DC8 /* NSObjects */,
+				6B007B821D98C320000AD589 /* AppDelegate.swift */,
+				6B007B841D98C320000AD589 /* ViewController.swift */,
+				6BEB2E821D9AAB4E0029D3F3 /* RegisterViewController.swift */,
+				6B5BCF0D1D9BA20E00EA0DC8 /* MedicardAccountsViewController.swift */,
+				6B975DCC1DAA846B006817AD /* MemberInfoViewController.swift */,
+				6B3F384B1DAF4D4500DFEF1B /* ViewQRCodeViewController.swift */,
+				6B7E04DE1DACBE1A0082B064 /* TermAndConditionViewController.swift */,
+				6BA28FFD1DACDE020070622C /* SideMenuViewController.swift */,
+				6BA290011DACDF950070622C /* MyAccountViewController.swift */,
+				6BB08B991DE5739500825490 /* SplashScreenViewController.swift */,
+				6BB08B9D1DE584B700825490 /* ForgotPasswordViewController.swift */,
+				6BD2944A1DE5EC110056DC4E /* ChangePassViewController.swift */,
+				6BA290071DACF61A0070622C /* RequestLOAViewController.swift */,
+				6BA290091DACF6510070622C /* DentistViewController.swift */,
+				6B007B861D98C320000AD589 /* Main.storyboard */,
+				6B007B8C1D98C320000AD589 /* Assets.xcassets */,
+				6B007B8E1D98C320000AD589 /* LaunchScreen.storyboard */,
+				6B007B911D98C320000AD589 /* Info.plist */,
+				6B007B891D98C320000AD589 /* Medicard.xcdatamodeld */,
+				6B007BB31D98C423000AD589 /* Assets */,
+			);
+			path = Medicard;
+			sourceTree = "<group>";
+		};
+		6B007B991D98C320000AD589 /* MedicardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B007B9A1D98C320000AD589 /* MedicardTests.swift */,
+				6B007B9C1D98C320000AD589 /* Info.plist */,
+			);
+			path = MedicardTests;
+			sourceTree = "<group>";
+		};
+		6B007BA41D98C320000AD589 /* MedicardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B007BA51D98C320000AD589 /* MedicardUITests.swift */,
+				6B007BA71D98C320000AD589 /* Info.plist */,
+			);
+			path = MedicardUITests;
+			sourceTree = "<group>";
+		};
+		6B007BB31D98C423000AD589 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6B62CEB51E0A45640068E139 /* ic_logo_vertical.png */,
+				6B3EDA2B1DE71B4D0068BB6F /* bar_button_bg@2x.png */,
+				6BB08B9B1DE57AA200825490 /* ic_logo_2.png */,
+				6BB08B971DE5730800825490 /* splashscreen_bg.jpg */,
+				6BBDC6A81DE2E61000C08633 /* ic_person_add_purple.png */,
+				6BBDC6A91DE2E61000C08633 /* ic_person_add_purple@2x.png */,
+				6BBDC6AA1DE2E61000C08633 /* ic_person_add_purple@3x.png */,
+				6BA39DEA1DD96E5D001515CF /* ic_no_internet.png */,
+				6BF716F01DD1646D00E22758 /* ic_logo.png */,
+				6B3EE9181DC32D3C006FA6B7 /* ic_white_logout.png */,
+				6BC530CA1DB743A10076A463 /* photo_placeholder.jpg */,
+				6BC530C21DB71B3F0076A463 /* ic_mode_edit_white.png */,
+				6BC530C31DB71B3F0076A463 /* ic_mode_edit_white@3x.png */,
+				6BC530C41DB71B3F0076A463 /* ic_mode_edit_white@2x.png */,
+				6B3F38491DAF44B200DFEF1B /* ic_edit_white.png */,
+				6BA290031DACE3900070622C /* reveal-icon.png */,
+				6BA290041DACE3900070622C /* reveal-icon@2x.png */,
+				6BA28FF71DACC2FB0070622C /* ic_back_white@2x.png */,
+				6BA28FF81DACC2FB0070622C /* ic_back_white@3x.png */,
+				6BA28FF91DACC2FB0070622C /* ic_back_white.png */,
+				6B7E04D81DAC95A50082B064 /* ic_logout_white.png */,
+				6B7E04D91DAC95A50082B064 /* ic_logout_white@2x.png */,
+				6B7E04DA1DAC95A50082B064 /* ic_logout_white@3x.png */,
+				6B02A66B1DAB7C7B00D93BA2 /* ic_view_white@3x.png */,
+				6B02A66C1DAB7C7B00D93BA2 /* ic_view_white.png */,
+				6B02A66D1DAB7C7B00D93BA2 /* ic_view_white@2x.png */,
+				6B02A6651DAB7B6700D93BA2 /* ic_person_add_white.png */,
+				6B02A6661DAB7B6700D93BA2 /* ic_person_add_white@3x.png */,
+				6B02A6671DAB7B6700D93BA2 /* ic_person_add_white@2x.png */,
+				6B02A65F1DAB7B5000D93BA2 /* ic_mail_white.png */,
+				6B02A6601DAB7B5000D93BA2 /* ic_mail_white@3x.png */,
+				6B02A6611DAB7B5000D93BA2 /* ic_mail_white@2x.png */,
+				6B02A6591DAB788E00D93BA2 /* ic_print_white.png */,
+				6B02A65A1DAB788E00D93BA2 /* ic_print_white@3x.png */,
+				6B02A65B1DAB788E00D93BA2 /* ic_print_white@2x.png */,
+				6B975DCA1DAA8138006817AD /* img_profile_sample.jpg */,
+				6BD25C111D9BE97C0028A129 /* sample_qr.png */,
+				6BEB2E861D9ABF4B0029D3F3 /* ic_close_white.png */,
+				6BEB2E871D9ABF4B0029D3F3 /* ic_close_white@2x.png */,
+				6BEB2E881D9ABF4B0029D3F3 /* ic_close_white@3x.png */,
+				6BD25C161D9BEEC00028A129 /* ic_add_white@3x.png */,
+				6BD25C171D9BEEC00028A129 /* ic_add_white.png */,
+				6BD25C181D9BEEC00028A129 /* ic_add_white@2x.png */,
+				6BEB2E841D9ABBC00029D3F3 /* inner-logo@2x.png */,
+				6B007BBA1D98DF69000AD589 /* icon-76@2x.png */,
+				6B007BBB1D98DF69000AD589 /* icon-120.png */,
+				6B007BB41D98C441000AD589 /* logo.png */,
+				6B007BB81D98D438000AD589 /* underline.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6B11E89F1DB605D700FE5D30 /* SWRevealSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6B11E8A51DB6064D00FE5D30 /* SWRevealViewController.h */,
+				6B11E8A61DB6064D00FE5D30 /* SWRevealViewController.m */,
+				6B11E8A91DB60B5D00FE5D30 /* Medicard-Bridging-Header.h */,
+			);
+			name = SWRevealSideMenu;
+			sourceTree = "<group>";
+		};
+		6B5BCF0A1D9BA0CE00EA0DC8 /* NSObjects */ = {
+			isa = PBXGroup;
+			children = (
+				6B5BCF081D9B747800EA0DC8 /* ShowKeyboard.swift */,
+				6B89878E1DA6219E00D6A475 /* ShowSnackBar.swift */,
+				6B465B201DA62CD600DA4047 /* FormValidation.swift */,
+				6BDCD0CD1DAC5AEF002D9AD4 /* GenerateQRCode.swift */,
+				6B51259F1DD5C12800DD40DD /* ImageResizer.swift */,
+				6BC4A93F1DEAB03200245AA2 /* AlertMessages.swift */,
+				6BEB34921E24A42D00C8A68F /* PingUrl.swift */,
+			);
+			name = NSObjects;
+			sourceTree = "<group>";
+		};
+		6B8542F91DBF40E30055E193 /* MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6B8542FA1DBF40FD0055E193 /* MBProgressHUD.m */,
+				6B8542FB1DBF40FD0055E193 /* MBProgressHUD.h */,
+			);
+			name = MBProgress;
+			sourceTree = "<group>";
+		};
+		6BAE189B1DBDF1C6000DA649 /* AlamofireConnection */ = {
+			isa = PBXGroup;
+			children = (
+				6BAE189C1DBDF312000DA649 /* PostRouter.swift */,
+			);
+			name = AlamofireConnection;
+			sourceTree = "<group>";
+		};
+		6BD25C131D9BEB5D0028A129 /* Custom TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				6BD25C141D9BEB7B0028A129 /* MedicardAccountsTableViewCell.swift */,
+				6BA28FFF1DACDEDE0070622C /* SideMenuTableViewCell.swift */,
+				6B975DCE1DAA88DE006817AD /* MemberInfoTableViewCell.swift */,
+				6B3F38471DAF2FD100DFEF1B /* DependentsTableViewCell.swift */,
+				6B3F384D1DAF550900DFEF1B /* MemInformationTableViewCell.swift */,
+				6B3F384F1DAF56CB00DFEF1B /* AccountInformationTableViewCell.swift */,
+			);
+			name = "Custom TableCells";
+			sourceTree = "<group>";
+		};
+		BB55BE52530C6AB3ED092D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD22A9B25279B8255C5D818 /* Pods_Medicard.framework */,
+				69B932A7D2A107041896AD87 /* Pods_MedicardTests.framework */,
+				5D139512C7A6EB170B251461 /* Pods_MedicardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B007B7E1D98C320000AD589 /* Medicard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B007BAA1D98C320000AD589 /* Build configuration list for PBXNativeTarget "Medicard" */;
+			buildPhases = (
+				D26EA07764C583F0997D82F2 /* [CP] Check Pods Manifest.lock */,
+				6B007B7B1D98C320000AD589 /* Sources */,
+				6B007B7C1D98C320000AD589 /* Frameworks */,
+				6B007B7D1D98C320000AD589 /* Resources */,
+				B4FC28F3E8E9D9EFF2B4BE8F /* [CP] Embed Pods Frameworks */,
+				D16638D48FF219697CAE0C53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medicard;
+			productName = Medicard;
+			productReference = 6B007B7F1D98C320000AD589 /* Medicard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B007B951D98C320000AD589 /* MedicardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B007BAD1D98C320000AD589 /* Build configuration list for PBXNativeTarget "MedicardTests" */;
+			buildPhases = (
+				509BC42AF952843037FA1F30 /* [CP] Check Pods Manifest.lock */,
+				6B007B921D98C320000AD589 /* Sources */,
+				6B007B931D98C320000AD589 /* Frameworks */,
+				6B007B941D98C320000AD589 /* Resources */,
+				09C703320DDAA719CA76D11E /* [CP] Embed Pods Frameworks */,
+				75DA305B686BD8D162C3C88B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B007B981D98C320000AD589 /* PBXTargetDependency */,
+			);
+			name = MedicardTests;
+			productName = MedicardTests;
+			productReference = 6B007B961D98C320000AD589 /* MedicardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B007BA01D98C320000AD589 /* MedicardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B007BB01D98C320000AD589 /* Build configuration list for PBXNativeTarget "MedicardUITests" */;
+			buildPhases = (
+				615F67487A1E2000B40D9AC9 /* [CP] Check Pods Manifest.lock */,
+				6B007B9D1D98C320000AD589 /* Sources */,
+				6B007B9E1D98C320000AD589 /* Frameworks */,
+				6B007B9F1D98C320000AD589 /* Resources */,
+				DB8CFACEBCE0001292B798FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B007BA31D98C320000AD589 /* PBXTargetDependency */,
+			);
+			name = MedicardUITests;
+			productName = MedicardUITests;
+			productReference = 6B007BA11D98C320000AD589 /* MedicardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B007B771D98C320000AD589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Al John Albuera";
+				TargetAttributes = {
+					6B007B7E1D98C320000AD589 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 77F9NA9AZC;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					6B007B951D98C320000AD589 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 77F9NA9AZC;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B007B7E1D98C320000AD589;
+					};
+					6B007BA01D98C320000AD589 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 77F9NA9AZC;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6B007B7E1D98C320000AD589;
+					};
+				};
+			};
+			buildConfigurationList = 6B007B7A1D98C320000AD589 /* Build configuration list for PBXProject "Medicard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B007B761D98C320000AD589;
+			productRefGroup = 6B007B801D98C320000AD589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B007B7E1D98C320000AD589 /* Medicard */,
+				6B007B951D98C320000AD589 /* MedicardTests */,
+				6B007BA01D98C320000AD589 /* MedicardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B007B7D1D98C320000AD589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD25C121D9BE97C0028A129 /* sample_qr.png in Resources */,
+				6BC530C61DB71B3F0076A463 /* ic_mode_edit_white@3x.png in Resources */,
+				6BEB2E851D9ABBC00029D3F3 /* inner-logo@2x.png in Resources */,
+				6BC530C71DB71B3F0076A463 /* ic_mode_edit_white@2x.png in Resources */,
+				6B02A66F1DAB7C7B00D93BA2 /* ic_view_white.png in Resources */,
+				6B02A65E1DAB788E00D93BA2 /* ic_print_white@2x.png in Resources */,
+				6B007BBC1D98DF69000AD589 /* icon-76@2x.png in Resources */,
+				6B02A65C1DAB788E00D93BA2 /* ic_print_white.png in Resources */,
+				6B975DCB1DAA8138006817AD /* img_profile_sample.jpg in Resources */,
+				6B007BBD1D98DF69000AD589 /* icon-120.png in Resources */,
+				6BBDC6AD1DE2E61000C08633 /* ic_person_add_purple@3x.png in Resources */,
+				6B007BB51D98C441000AD589 /* logo.png in Resources */,
+				6B007BB91D98D438000AD589 /* underline.png in Resources */,
+				6B02A6691DAB7B6700D93BA2 /* ic_person_add_white@3x.png in Resources */,
+				6BA39DEB1DD96E5D001515CF /* ic_no_internet.png in Resources */,
+				6BD25C1B1D9BEEC00028A129 /* ic_add_white@2x.png in Resources */,
+				6B02A6641DAB7B5000D93BA2 /* ic_mail_white@2x.png in Resources */,
+				6BA28FFA1DACC2FB0070622C /* ic_back_white@2x.png in Resources */,
+				6B02A66A1DAB7B6700D93BA2 /* ic_person_add_white@2x.png in Resources */,
+				6B02A6701DAB7C7B00D93BA2 /* ic_view_white@2x.png in Resources */,
+				6BF716F11DD1646D00E22758 /* ic_logo.png in Resources */,
+				6BB08B981DE5730800825490 /* splashscreen_bg.jpg in Resources */,
+				6B7E04DC1DAC95A50082B064 /* ic_logout_white@2x.png in Resources */,
+				6B7E04DB1DAC95A50082B064 /* ic_logout_white.png in Resources */,
+				6B7E04DD1DAC95A50082B064 /* ic_logout_white@3x.png in Resources */,
+				6BA290051DACE3900070622C /* reveal-icon.png in Resources */,
+				6BEB2E8A1D9ABF4B0029D3F3 /* ic_close_white@2x.png in Resources */,
+				6B3EDA2C1DE71B4D0068BB6F /* bar_button_bg@2x.png in Resources */,
+				6B02A6681DAB7B6700D93BA2 /* ic_person_add_white.png in Resources */,
+				6BD25C1A1D9BEEC00028A129 /* ic_add_white.png in Resources */,
+				6B02A6631DAB7B5000D93BA2 /* ic_mail_white@3x.png in Resources */,
+				6B007B901D98C320000AD589 /* LaunchScreen.storyboard in Resources */,
+				6BBDC6AC1DE2E61000C08633 /* ic_person_add_purple@2x.png in Resources */,
+				6BBDC6AB1DE2E61000C08633 /* ic_person_add_purple.png in Resources */,
+				6BC530CB1DB743A10076A463 /* photo_placeholder.jpg in Resources */,
+				6BA28FFC1DACC2FB0070622C /* ic_back_white.png in Resources */,
+				6BB08B9C1DE57AA200825490 /* ic_logo_2.png in Resources */,
+				6B3EE9191DC32D3C006FA6B7 /* ic_white_logout.png in Resources */,
+				6B62CEB61E0A45640068E139 /* ic_logo_vertical.png in Resources */,
+				6BEB2E891D9ABF4B0029D3F3 /* ic_close_white.png in Resources */,
+				6BA28FFB1DACC2FB0070622C /* ic_back_white@3x.png in Resources */,
+				6B007B8D1D98C320000AD589 /* Assets.xcassets in Resources */,
+				6B02A65D1DAB788E00D93BA2 /* ic_print_white@3x.png in Resources */,
+				6BEB2E8B1D9ABF4B0029D3F3 /* ic_close_white@3x.png in Resources */,
+				6BD25C191D9BEEC00028A129 /* ic_add_white@3x.png in Resources */,
+				6BA290061DACE3900070622C /* reveal-icon@2x.png in Resources */,
+				6B3F384A1DAF44B200DFEF1B /* ic_edit_white.png in Resources */,
+				6BC530C51DB71B3F0076A463 /* ic_mode_edit_white.png in Resources */,
+				6B02A6621DAB7B5000D93BA2 /* ic_mail_white.png in Resources */,
+				6B007B881D98C320000AD589 /* Main.storyboard in Resources */,
+				6B02A66E1DAB7C7B00D93BA2 /* ic_view_white@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B007B941D98C320000AD589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B007B9F1D98C320000AD589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09C703320DDAA719CA76D11E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicardTests/Pods-MedicardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		509BC42AF952843037FA1F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		615F67487A1E2000B40D9AC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75DA305B686BD8D162C3C88B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicardTests/Pods-MedicardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FC28F3E8E9D9EFF2B4BE8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medicard/Pods-Medicard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16638D48FF219697CAE0C53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medicard/Pods-Medicard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26EA07764C583F0997D82F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8CFACEBCE0001292B798FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicardUITests/Pods-MedicardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B007B7B1D98C320000AD589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3F38481DAF2FD100DFEF1B /* DependentsTableViewCell.swift in Sources */,
+				6BA290001DACDEDE0070622C /* SideMenuTableViewCell.swift in Sources */,
+				6B007B851D98C320000AD589 /* ViewController.swift in Sources */,
+				6B11E8A71DB6064D00FE5D30 /* SWRevealViewController.m in Sources */,
+				6BC4A9401DEAB03200245AA2 /* AlertMessages.swift in Sources */,
+				6B5BCF0E1D9BA20E00EA0DC8 /* MedicardAccountsViewController.swift in Sources */,
+				6B975DCD1DAA846B006817AD /* MemberInfoViewController.swift in Sources */,
+				6BEB34931E24A42D00C8A68F /* PingUrl.swift in Sources */,
+				6B7E04DF1DACBE1A0082B064 /* TermAndConditionViewController.swift in Sources */,
+				6BA28FFE1DACDE020070622C /* SideMenuViewController.swift in Sources */,
+				6B8542FC1DBF40FD0055E193 /* MBProgressHUD.m in Sources */,
+				6B007B8B1D98C320000AD589 /* Medicard.xcdatamodeld in Sources */,
+				6B465B211DA62CD600DA4047 /* FormValidation.swift in Sources */,
+				6BAE189D1DBDF312000DA649 /* PostRouter.swift in Sources */,
+				6B3F384E1DAF550900DFEF1B /* MemInformationTableViewCell.swift in Sources */,
+				6B007B831D98C320000AD589 /* AppDelegate.swift in Sources */,
+				6B975DCF1DAA88DE006817AD /* MemberInfoTableViewCell.swift in Sources */,
+				6BB08B9A1DE5739500825490 /* SplashScreenViewController.swift in Sources */,
+				6B5125A01DD5C12800DD40DD /* ImageResizer.swift in Sources */,
+				6BA2900A1DACF6510070622C /* DentistViewController.swift in Sources */,
+				6BA290021DACDF950070622C /* MyAccountViewController.swift in Sources */,
+				6B89878F1DA6219E00D6A475 /* ShowSnackBar.swift in Sources */,
+				6BDCD0CE1DAC5AEF002D9AD4 /* GenerateQRCode.swift in Sources */,
+				6BA290081DACF61A0070622C /* RequestLOAViewController.swift in Sources */,
+				6B5BCF091D9B747800EA0DC8 /* ShowKeyboard.swift in Sources */,
+				6B3F384C1DAF4D4500DFEF1B /* ViewQRCodeViewController.swift in Sources */,
+				6BD2944B1DE5EC110056DC4E /* ChangePassViewController.swift in Sources */,
+				6BB08B9E1DE584B700825490 /* ForgotPasswordViewController.swift in Sources */,
+				6BD25C151D9BEB7B0028A129 /* MedicardAccountsTableViewCell.swift in Sources */,
+				6B3F38501DAF56CB00DFEF1B /* AccountInformationTableViewCell.swift in Sources */,
+				6BEB2E831D9AAB4E0029D3F3 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B007B921D98C320000AD589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B007B9B1D98C320000AD589 /* MedicardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B007B9D1D98C320000AD589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B007BA61D98C320000AD589 /* MedicardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B007B981D98C320000AD589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B007B7E1D98C320000AD589 /* Medicard */;
+			targetProxy = 6B007B971D98C320000AD589 /* PBXContainerItemProxy */;
+		};
+		6B007BA31D98C320000AD589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B007B7E1D98C320000AD589 /* Medicard */;
+			targetProxy = 6B007BA21D98C320000AD589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B007B861D98C320000AD589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B007B871D98C320000AD589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B007B8E1D98C320000AD589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B007B8F1D98C320000AD589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B007BA81D98C320000AD589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B007BA91D98C320000AD589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B007BAB1D98C320000AD589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EA69468C6DC33359AC27BD /* Pods-Medicard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				INFOPLIST_FILE = Medicard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Medicard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Medicard/Medicard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B007BAC1D98C320000AD589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED81BC5CFF02735F799E6380 /* Pods-Medicard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				INFOPLIST_FILE = Medicard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Medicard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Medicard/Medicard-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6B007BAE1D98C320000AD589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BE2610ED4A44CBF4498AE1 /* Pods-MedicardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				INFOPLIST_FILE = MedicardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MedicardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medicard.app/Medicard";
+			};
+			name = Debug;
+		};
+		6B007BAF1D98C320000AD589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9868A31E6740CC0179906484 /* Pods-MedicardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				INFOPLIST_FILE = MedicardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MedicardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medicard.app/Medicard";
+			};
+			name = Release;
+		};
+		6B007BB11D98C320000AD589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE1179663F3160A08CCF155 /* Pods-MedicardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				INFOPLIST_FILE = MedicardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MedicardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Medicard;
+			};
+			name = Debug;
+		};
+		6B007BB21D98C320000AD589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4721E0446AB5D9E30195ED8 /* Pods-MedicardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				INFOPLIST_FILE = MedicardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.MedicardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Medicard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B007B7A1D98C320000AD589 /* Build configuration list for PBXProject "Medicard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B007BA81D98C320000AD589 /* Debug */,
+				6B007BA91D98C320000AD589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B007BAA1D98C320000AD589 /* Build configuration list for PBXNativeTarget "Medicard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B007BAB1D98C320000AD589 /* Debug */,
+				6B007BAC1D98C320000AD589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B007BAD1D98C320000AD589 /* Build configuration list for PBXNativeTarget "MedicardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B007BAE1D98C320000AD589 /* Debug */,
+				6B007BAF1D98C320000AD589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B007BB01D98C320000AD589 /* Build configuration list for PBXNativeTarget "MedicardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B007BB11D98C320000AD589 /* Debug */,
+				6B007BB21D98C320000AD589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B007B891D98C320000AD589 /* Medicard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B007B8A1D98C320000AD589 /* Medicard.xcdatamodel */,
+			);
+			currentVersion = 6B007B8A1D98C320000AD589 /* Medicard.xcdatamodel */;
+			path = Medicard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B007B771D98C320000AD589 /* Project object */;
+}
