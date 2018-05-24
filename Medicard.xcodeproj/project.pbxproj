@@ -526,7 +526,7 @@
 				TargetAttributes = {
 					6B007B7E1D98C320000AD589 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 77F9NA9AZC;
+						DevelopmentTeam = L86FZ797RZ;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -953,7 +953,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				DEVELOPMENT_TEAM = L86FZ797RZ;
 				INFOPLIST_FILE = Medicard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -972,7 +972,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 77F9NA9AZC;
+				DEVELOPMENT_TEAM = L86FZ797RZ;
 				INFOPLIST_FILE = Medicard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
